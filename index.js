@@ -2,7 +2,7 @@ let app = require('express')
 let morbus = require('brain.js')
 
 let mortality = new morbus.NeuralNetwork()
-let raw = require('/Users/Rose/Desktop/MORTALITY_RAW.json')
+let raw = require('./MORTALITY_RAW.json')
 let data = []
 
 normalize = (item) => {
